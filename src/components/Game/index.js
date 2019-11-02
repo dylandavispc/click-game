@@ -10,6 +10,9 @@ const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const soundfontHostname = 'https://d1pzp51pvbm36p.cloudfront.net';
 
 class Game extends React.Component {
+  state = {
+    roundCount: 0
+  }
   
   render() {
     return (

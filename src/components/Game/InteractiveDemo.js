@@ -24,17 +24,17 @@ class InteractiveDemo extends React.Component {
   }
 
   finishSong = () => {
-    console.log("SONG COMPLETE")
+    alert("SONG COMPLETE")
     this.resetNotesInput();
   };
 
   wrongKey = () => {
-    console.log("INCORRECT NOTE")
+    alert("INCORRECT NOTE")
     this.resetNotesInput();
   }
 
   // Note Handler Function
-  onPlayNoteInput = midiNumber => {
+  onStopNoteInput = midiNumber => {
     let key = this.state.inputList
     let songIndex = this.props.song
     key.push(midiNumber)
@@ -43,6 +43,7 @@ class InteractiveDemo extends React.Component {
         // Function upon Song Completion
         if (key[i] === songIndex[i] && key.length === songIndex.length) {
             this.finishSong();
+            break;
         }
         // Function upon Correct Note
         else if (key[i] === songIndex[i]) {
@@ -51,6 +52,7 @@ class InteractiveDemo extends React.Component {
         // Function upon Incorrect Note
         else {
             this.wrongKey();
+            break;
         }
     }
   };
@@ -83,7 +85,7 @@ class InteractiveDemo extends React.Component {
                     stopNote={stopNote}
                     disabled={isLoading}
                     width={containerWidth}
-                    onPlayNoteInput={this.onPlayNoteInput}
+                    onStopNoteInput={this.onStopNoteInput}
                   />
                 )}
               </DimensionsProvider>
