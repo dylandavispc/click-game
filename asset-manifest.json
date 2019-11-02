@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.626e1fd6.chunk.css",
+    "main.js": "/static/js/main.ff54cd54.chunk.js",
+    "main.js.map": "/static/js/main.ff54cd54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f97e4978.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f97e4978.js.map",
+    "static/css/2.1e78366a.chunk.css": "/static/css/2.1e78366a.chunk.css",
+    "static/js/2.9282f4a7.chunk.js": "/static/js/2.9282f4a7.chunk.js",
+    "static/js/2.9282f4a7.chunk.js.map": "/static/js/2.9282f4a7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6a5b25823cd9807787499f24a41d211f.js": "/precache-manifest.6a5b25823cd9807787499f24a41d211f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1e78366a.chunk.css.map": "/static/css/2.1e78366a.chunk.css.map",
+    "static/css/main.626e1fd6.chunk.css.map": "/static/css/main.626e1fd6.chunk.css.map",
+    "static/media/linkTransparent.png": "/static/media/linkTransparent.91502215.png",
+    "static/media/zoraGuitar.png": "/static/media/zoraGuitar.ee8eb1a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f97e4978.js",
+    "static/css/2.1e78366a.chunk.css",
+    "static/js/2.9282f4a7.chunk.js",
+    "static/css/main.626e1fd6.chunk.css",
+    "static/js/main.ff54cd54.chunk.js"
+  ]
+}
